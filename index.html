@@ -98,9 +98,9 @@
         </nav>
     </header>
     <div id="background">
-        <main class=" container">
+        <main class=" container-md">
             <div class="container px-5">
-                <div id="column" class="grid grid-cols-2 justify-items-center">
+                <div id="column" class="grid grid-cols-2 justify-items-center ml-20">
                     <div class="row ">
                         <div id="main-title text-justify">
                             <h1 id="title" class="text-lg"> <strong>Showcase your app beautifully.</strong></h1>
@@ -121,6 +121,11 @@
                         </div>
                         <div class="image">
                             <img src="img/illustration-phones-svg.jpg">
+                            <div id="video-wrapper" class="bg-black">
+                                <video class="rounded-md" id="background-video" muted="muted" autoplay loop poster >
+                                    <source src="img/medusa-110877.mp4" type="video/mp4">
+                                </video>
+                            </div>
                         </div>
                         <div class="image-mobile mt-10">
                             <img src="img/mobile-phone.jpg">
@@ -132,11 +137,11 @@
         </main>
     </div>
 </div>
-    <section class="text-center bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500">
+    <section class="text-center bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 mt-2">
         <div class="container px-5">
-           <div class="flex gx-5 justify-center">
+           <div class="flex gx-5 justify-center ">
                <div class="margin">
-                   <h2 id="second-title"><strong>"An intuitive solution to a common problem that we all face, wrapped up in a single app!"</strong></h2>
+                   <h2 id="second-title" class="text-justify"><strong>"An intuitive solution to a common problem<br> that we all face, wrapped up in a single app!"</strong></h2>
                </div>
            </div>
         </div>
@@ -144,24 +149,37 @@
     </section>
     <section>
         <div class="container px-5">
-          <div class="grid grid-cols-2 grid-row-2">
-              <div class="border-2 border-black">1</div>
-              <div class="border-2 border-black">2</div>
-              <div class="border-2 border-black">3</div>
-              <div class="border-2 border-black">4</div>
-          </div>
-            <div class="col-lg-4 order-lg-0 relative">
-                <div class="ellipse">
-                    <img src="img/Ellipse%201.png">
-                </div>
-                <div class="image">
-                    <img src="img/illustration-phones-svg.jpg">
+            <div id="second-grid" class="grid grid-cols-2 justify-items-center">
+
+                    <div class="image relative ">
+                        <img src="img/illustration-phones-svg.jpg">
+                    </div>
+
+                <div id="second-section" class="grid grid-cols-2 row-2 mr-44">
+                    <div class="text-center">
+                        <h3 class="second-title">Device Mockups</h3>
+                        <p>Ready to use HTML/CSS device mockups, no Photoshop required!</p>
+                    </div>
+                    <div class="text-center">
+                        <div>
+                        <h3 class="second-title">Flexible Use</h3>
+                        <p>Put an image, video, animation, or anything else in the screen!</p>
+                    </div></div>
+                    <div class="text-center">   <div>
+                        <h3 class="second-title">Free to Use</h3>
+                        <p>As always, this theme is free to download and use for any purpose!</p>
+                    </div></div>
+                    <div class="text-center">
+                        <div>
+                        <h3 class="second-title">Open Source</h3>
+                        <p>Since this theme is MIT licensed, you can use it commercially!</p>
+                    </div>
+                    </div>
                 </div>
                 <div class="image-mobile mt-10">
                     <img src="img/mobile-phone.jpg">
                 </div>
-            </div>
-
+        </div>
         </div>
     </section>
 
